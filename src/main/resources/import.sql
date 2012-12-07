@@ -1,0 +1,2 @@
+-- You can use this file to load seed data into the database using SQL statements
+insert into Notebook (id, name, description, createdOn,owner) values (0, 'OpenShift Notebook', 'This is a notebook containing notes about OpenShift', CURRENT_DATE(),'Shekhar Gulati') 
